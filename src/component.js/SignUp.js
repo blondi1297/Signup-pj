@@ -52,7 +52,7 @@ const SignUp = () => {
   return (
     <div className={styles.container}>
       <form onSubmit={submitHandler} className={styles.formcontainer}>
-        <h2 className={styles.header}>SignUp</h2>
+        <h2 className={styles.header}>Signup</h2>
         <div className={styles.formField}>
           <label>Name</label>
           <input

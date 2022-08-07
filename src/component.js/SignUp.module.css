@@ -126,3 +126,24 @@ input[type="checkbox"]:focus {
   justify-content: space-between;
   align-items: center;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .formcontainer {
+    width: 65%;
+    margin: 20px auto;
+  }
+  .formField input {
+    width: 92%;
+  }
+  .checkboxcontainer {
+    margin-top: 20px;
+  }
+  .checkboxcontainer input {
+    width: 18px;
+    height: 18px;
+  }
+ 
+  .checkboxcontainer label {
+    padding-bottom: 30px;
+  }
+}
